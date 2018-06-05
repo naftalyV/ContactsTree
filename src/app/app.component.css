@@ -1,0 +1,16 @@
+.title {
+    font-size: 60px;
+}
+
+div:hover { 
+    background-color:rgb(183, 169, 197);
+}
+.heder {
+    font-size: 30px;
+}
+.inHeder{
+    margin-left: 30px;
+}
+.inInHeder{
+    margin-left: 60px;
+}
