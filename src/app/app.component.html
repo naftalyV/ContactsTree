@@ -7,7 +7,7 @@
     <div *ngIf="inContact.show" (click)="showInInnerContact(inContact)" class="heder inHeder">{{ inContact.name }} </div>
 
     <ng-container *ngFor="let  inInContact of inContact.contacts">
-      <div *ngIf="inInContact.show && inContact.show" class="heder inInHeder">{{ inInContact.name }} </div>
+      <div *ngIf="inInContact.show  && inContact.show" class="heder inInHeder">{{ inInContact.name }} </div>
 
     </ng-container>
   </ng-container>
